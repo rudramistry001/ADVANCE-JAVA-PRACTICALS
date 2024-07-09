@@ -5,7 +5,11 @@ import java.awt.Frame;
 import java.awt.GridLayout;
 import java.awt.Panel;
 import java.awt.TextField;
-
+/*Name :- Rudra H Mistry
+ *Class :- 5th QC
+ Advance Java Practicals
+ PRactical -12
+ */
 
 
 public class Practical12 {
