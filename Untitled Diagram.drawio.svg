@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
     <rect x="50" y="250" width="120" height="60" stroke="black" fill="white"/>
-    <text x="70" y="285" font-size="14" font-family="Arial">Supplier</text>
+    <text x="80" y="285" font-size="14" font-family="Arial" text-anchor="middle">Supplier</text>
 
     <ellipse cx="300" cy="150" rx="80" ry="40" stroke="black" fill="white"/>
-    <text x="260" y="155" font-size="14" font-family="Arial">Registration</text>
+    <text x="300" y="155" font-size="14" font-family="Arial" text-anchor="middle">Registration</text>
 
     <ellipse cx="300" cy="250" rx="80" ry="40" stroke="black" fill="white"/>
-    <text x="260" y="255" font-size="14" font-family="Arial">Login Authentication</text>
+    <text x="300" y="255" font-size="14" font-family="Arial" text-anchor="middle">Login Authentication</text>
 
     <ellipse cx="300" cy="350" rx="80" ry="40" stroke="black" fill="white"/>
-    <text x="260" y="355" font-size="14" font-family="Arial">Manage Order</text>
+    <text x="300" y="355" font-size="14" font-family="Arial" text-anchor="middle">Manage Order</text>
 
     <ellipse cx="300" cy="450" rx="80" ry="40" stroke="black" fill="white"/>
-    <text x="260" y="455" font-size="14" font-family="Arial">Product Management</text>
+    <text x="300" y="455" font-size="14" font-family="Arial" text-anchor="middle">Product Management</text>
 
     <ellipse cx="300" cy="550" rx="80" ry="40" stroke="black" fill="white"/>
-    <text x="260" y="555" font-size="14" font-family="Arial">Payment Process</text>
+    <text x="300" y="555" font-size="14" font-family="Arial" text-anchor="middle">Payment Process</text>
 
     <ellipse cx="300" cy="650" rx="80" ry="40" stroke="black" fill="white"/>
-    <text x="270" y="655" font-size="14" font-family="Arial">Admin</text>
+    <text x="300" y="655" font-size="14" font-family="Arial" text-anchor="middle">Admin</text>
 
     <rect x="500" y="130" width="140" height="40" stroke="black" fill="white"/>
-    <text x="510" y="155" font-size="14" font-family="Arial">Supplier Registration</text>
+    <text x="570" y="155" font-size="14" font-family="Arial" text-anchor="middle">Supplier Registration</text>
     
     <rect x="500" y="230" width="140" height="40" stroke="black" fill="white"/>
-    <text x="520" y="255" font-size="14" font-family="Arial">Supplier Database</text>
+    <text x="570" y="255" font-size="14" font-family="Arial" text-anchor="middle">Supplier Database</text>
     
     <rect x="500" y="330" width="140" height="40" stroke="black" fill="white"/>
-    <text x="530" y="355" font-size="14" font-family="Arial">Orders Database</text>
+    <text x="570" y="355" font-size="14" font-family="Arial" text-anchor="middle">Orders Database</text>
     
     <rect x="500" y="430" width="140" height="40" stroke="black" fill="white"/>
-    <text x="530" y="455" font-size="14" font-family="Arial">Product Database</text>
+    <text x="570" y="455" font-size="14" font-family="Arial" text-anchor="middle">Product Database</text>
     
     <rect x="500" y="530" width="140" height="40" stroke="black" fill="white"/>
-    <text x="530" y="555" font-size="14" font-family="Arial">Payments Database</text>
+    <text x="570" y="555" font-size="14" font-family="Arial" text-anchor="middle">Payments Database</text>
     
     <rect x="500" y="630" width="140" height="40" stroke="black" fill="white"/>
-    <text x="530" y="655" font-size="14" font-family="Arial">Supplier System</text>
+    <text x="570" y="655" font-size="14" font-family="Arial" text-anchor="middle">Supplier System</text>
     
     <line x1="170" y1="280" x2="220" y2="150" stroke="black" stroke-width="2"/>
-    <text x="175" y="210" font-size="12" font-family="Arial">Register</text>
+    <text x="190" y="190" font-size="12" font-family="Arial">Register</text>
     
     <line x1="170" y1="280" x2="220" y2="250" stroke="black" stroke-width="2"/>
-    <text x="175" y="265" font-size="12" font-family="Arial">Request login</text>
+    <text x="190" y="265" font-size="12" font-family="Arial">Request login</text>
     
     <line x1="170" y1="280" x2="220" y2="350" stroke="black" stroke-width="2"/>
-    <text x="175" y="330" font-size="12" font-family="Arial">New order</text>
+    <text x="190" y="330" font-size="12" font-family="Arial">New order</text>
     
     <line x1="170" y1="280" x2="220" y2="450" stroke="black" stroke-width="2"/>
-    <text x="175" y="410" font-size="12" font-family="Arial">Profile managing</text>
+    <text x="190" y="410" font-size="12" font-family="Arial">Profile managing</text>
     
     <line x1="170" y1="280" x2="220" y2="550" stroke="black" stroke-width="2"/>
-    <text x="175" y="510" font-size="12" font-family="Arial">Confirms Transaction</text>
+    <text x="190" y="510" font-size="12" font-family="Arial">Confirms Transaction</text>
     
     <line x1="170" y1="280" x2="220" y2="650" stroke="black" stroke-width="2"/>
-    <text x="175" y="610" font-size="12" font-family="Arial">Permission</text>
+    <text x="190" y="610" font-size="12" font-family="Arial">Permission</text>
     
     <line x1="380" y1="150" x2="500" y2="150" stroke="black" stroke-width="2"/>
     <line x1="380" y1="250" x2="500" y2="250" stroke="black" stroke-width="2"/>
@@ -64,10 +64,10 @@
     <line x1="380" y1="550" x2="500" y2="550" stroke="black" stroke-width="2"/>
     <line x1="380" y1="650" x2="500" y2="650" stroke="black" stroke-width="2"/>
     
-    <text x="400" y="145" font-size="12" font-family="Arial">Storing in database</text>
-    <text x="400" y="245" font-size="12" font-family="Arial">Check details</text>
-    <text x="400" y="345" font-size="12" font-family="Arial">Accept or reject</text>
-    <text x="400" y="445" font-size="12" font-family="Arial">Add or delete</text>
-    <text x="400" y="545" font-size="12" font-family="Arial">Payment Process</text>
-    <text x="400" y="645" font-size="12" font-family="Arial">Permission</text>
+    <text x="440" y="145" font-size="12" font-family="Arial">Storing in database</text>
+    <text x="440" y="245" font-size="12" font-family="Arial">Check details</text>
+    <text x="440" y="345" font-size="12" font-family="Arial">Accept or reject</text>
+    <text x="440" y="445" font-size="12" font-family="Arial">Add or delete</text>
+    <text x="440" y="545" font-size="12" font-family="Arial">Payment Process</text>
+    <text x="440" y="645" font-size="12" font-family="Arial">Permission</text>
 </svg>
