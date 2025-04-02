@@ -1,35 +1,65 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="800" height="800" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <!-- Supplier Entity -->
-    <rect x="50" y="200" width="120" height="60" stroke="black" fill="white" stroke-width="2"/>
-    <text x="75" y="235" font-size="14" font-family="Arial">Supplier</text>
-    
-    <!-- Registration Process -->
-    <ellipse cx="290" cy="130" rx="70" ry="30" stroke="black" fill="white" stroke-width="2"/>
-    <text x="260" y="135" font-size="12" font-family="Arial">Registration</text>
-    
-    <!-- Supplier Registration Data Store -->
-    <rect x="420" y="100" width="160" height="60" stroke="black" fill="white" stroke-width="2"/>
-    <text x="440" y="135" font-size="12" font-family="Arial">Supplier Registration</text>
-    
-    <!-- Login Authentication Process -->
-    <ellipse cx="290" cy="230" rx="80" ry="30" stroke="black" fill="white" stroke-width="2"/>
-    <text x="240" y="235" font-size="12" font-family="Arial">Login Authentication</text>
-    
-    <!-- Supplier Database Data Store -->
-    <rect x="420" y="200" width="160" height="60" stroke="black" fill="white" stroke-width="2"/>
-    <text x="450" y="235" font-size="12" font-family="Arial">Supplier Database</text>
-    
-    <!-- Arrows (Flows) -->
-    <line x1="170" y1="230" x2="220" y2="130" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
-    <line x1="360" y1="130" x2="420" y2="130" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
-    <line x1="170" y1="230" x2="220" y2="230" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
-    <line x1="370" y1="230" x2="420" y2="230" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
-    
-    <!-- Arrow Marker -->
-    <defs>
-        <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
-            <path d="M0,0 L0,6 L9,3 z" fill="black"/>
-        </marker>
-    </defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="100" width="150" height="80" stroke="black" fill="white" stroke-width="2"/>
+  <text x="90" y="140" font-size="14" font-family="Arial">Supplier</text>
+
+  <ellipse cx="350" cy="140" rx="80" ry="40" stroke="black" fill="white" stroke-width="2"/>
+  <text x="310" y="140" font-size="14" font-family="Arial">Registration</text>
+  <line x1="200" y1="140" x2="270" y2="140" stroke="black" stroke-width="2"/>
+  <text x="210" y="130" font-size="12" font-family="Arial">Register</text>
+
+  <ellipse cx="350" cy="220" rx="80" ry="40" stroke="black" fill="white" stroke-width="2"/>
+  <text x="300" y="220" font-size="14" font-family="Arial">Login Authentication</text>
+  <line x1="200" y1="140" x2="270" y2="220" stroke="black" stroke-width="2"/>
+  <text x="210" y="180" font-size="12" font-family="Arial">Request login</text>
+
+  <ellipse cx="350" cy="300" rx="80" ry="40" stroke="black" fill="white" stroke-width="2"/>
+  <text x="310" y="300" font-size="14" font-family="Arial">Manage order</text>
+  <line x1="200" y1="140" x2="270" y2="300" stroke="black" stroke-width="2"/>
+  <text x="210" y="260" font-size="12" font-family="Arial">New order</text>
+
+  <ellipse cx="350" cy="380" rx="80" ry="40" stroke="black" fill="white" stroke-width="2"/>
+  <text x="310" y="380" font-size="14" font-family="Arial">Product management</text>
+  <line x1="200" y1="140" x2="270" y2="380" stroke="black" stroke-width="2"/>
+  <text x="210" y="340" font-size="12" font-family="Arial">Profile managing</text>
+
+  <ellipse cx="350" cy="460" rx="80" ry="40" stroke="black" fill="white" stroke-width="2"/>
+  <text x="310" y="460" font-size="14" font-family="Arial">Payment process</text>
+  <line x1="200" y1="140" x2="270" y2="460" stroke="black" stroke-width="2"/>
+  <text x="210" y="420" font-size="12" font-family="Arial">Confirms Transaction</text>
+
+  <ellipse cx="350" cy="540" rx="80" ry="40" stroke="black" fill="white" stroke-width="2"/>
+  <text x="320" y="540" font-size="14" font-family="Arial">Admin</text>
+  <line x1="200" y1="140" x2="270" y2="540" stroke="black" stroke-width="2"/>
+  <text x="210" y="500" font-size="12" font-family="Arial">Permission</text>
+
+  <rect x="500" y="120" width="150" height="50" stroke="black" fill="white" stroke-width="2"/>
+  <text x="510" y="150" font-size="12" font-family="Arial">Supplier Registration</text>
+  <line x1="430" y1="140" x2="500" y2="140" stroke="black" stroke-width="2"/>
+  <text x="450" y="130" font-size="12" font-family="Arial">Storing in database</text>
+
+  <rect x="500" y="200" width="150" height="50" stroke="black" fill="white" stroke-width="2"/>
+  <text x="520" y="230" font-size="12" font-family="Arial">Supplier Database</text>
+  <line x1="430" y1="220" x2="500" y2="220" stroke="black" stroke-width="2"/>
+  <text x="450" y="210" font-size="12" font-family="Arial">Check details</text>
+
+  <rect x="500" y="280" width="150" height="50" stroke="black" fill="white" stroke-width="2"/>
+  <text x="530" y="310" font-size="12" font-family="Arial">Orders Database</text>
+  <line x1="430" y1="300" x2="500" y2="300" stroke="black" stroke-width="2"/>
+  <text x="450" y="290" font-size="12" font-family="Arial">Accept or reject</text>
+
+  <rect x="500" y="360" width="150" height="50" stroke="black" fill="white" stroke-width="2"/>
+  <text x="520" y="390" font-size="12" font-family="Arial">Product Database</text>
+  <line x1="430" y1="380" x2="500" y2="380" stroke="black" stroke-width="2"/>
+  <text x="450" y="370" font-size="12" font-family="Arial">Add or delete</text>
+
+  <rect x="500" y="440" width="150" height="50" stroke="black" fill="white" stroke-width="2"/>
+  <text x="520" y="470" font-size="12" font-family="Arial">Payments Database</text>
+  <line x1="430" y1="460" x2="500" y2="460" stroke="black" stroke-width="2"/>
+  <text x="450" y="450" font-size="12" font-family="Arial">Payment Process</text>
+
+  <rect x="500" y="520" width="150" height="50" stroke="black" fill="white" stroke-width="2"/>
+  <text x="520" y="550" font-size="12" font-family="Arial">Supplier System</text>
+  <line x1="430" y1="540" x2="500" y2="540" stroke="black" stroke-width="2"/>
+  <text x="450" y="530" font-size="12" font-family="Arial">Permission</text>
 </svg>
